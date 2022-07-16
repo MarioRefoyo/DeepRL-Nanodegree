@@ -52,9 +52,9 @@ Then it is required to install the environment. To do so:
 
 * The notebook `Tennis.py` implements the training of the agents to solve the tasks.
 
-* The file named `mddpg_agent.py` contains the implementation of MDDPG, the Agents, and its possible actions (act, learn, update...).
+* The file named `ddpg_agent.py` contains the implementation of DDPG, the Agents, and its possible actions (act, learn, update...).
 It also contains the implementation of the Replay Buffer for Experience Replay while learning.
 
-* The file named `model.py` defines the network architectures used by Actor and Critic of both agents.
+* The file named `ddpg_model.py` defines the network architectures used by Actor and Critic.
  
 
