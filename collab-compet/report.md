@@ -52,3 +52,7 @@ The DDPG solved the environment in `2055` episodes with an average score of `0.5
 
 ![img.png](img.png)
 
+## Future work
+* Implement other strategies such as Multi-agent DDPG or D4PG.
+* Use Delayed Updates
+* Use N step returns to reduce the variance during learning.
